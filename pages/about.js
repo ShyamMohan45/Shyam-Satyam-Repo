@@ -10,11 +10,11 @@ function About() {
         <title>About Us</title>
         <meta
           name="description"
-          content="HnCC or Hackathon and Coding Club is the official club of BIT Sindri that has the motto to instill a coding culture, collaborate, and arrange events relevant to Open Source, Graphics and Game Development, Web Development, App Development, and many other topics."
+          content="Codebase Club is a student-led technical community dedicated to fostering a strong coding culture, encouraging collaboration, and organizing events across domains like Web Development, App Development, AI/ML, Blockchain, Cloud Computing, and Open Source."
         />
         <meta
           name="keywords"
-          content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, HnCC, About HnCC, Hackathon & Coding Club, BIT Sindri, Dhanbad"
+          content="HTML, CSS, JavaScript, ReactJS, NextJS, TailwindCSS, Codebase, About Codebase, Hackathon & Coding Club, IIIT Kota, Rajasthan"
         />
       </Head>
       <section className="container-70 pt-28 md:pt-16 sm:pt-12">
@@ -47,11 +47,7 @@ function About() {
           <BottomGlitter text="About HnCC" />
           <div className="mt-6">
             <p className="text-lg">
-              Hackathon and Coding Club (HnCC) is the official coding and
-              development club of BIT Sindri. It was started with an initial
-              motto to inculcate and improve collaborative coding culture in
-              college. Our team expanded slowly in numbers and the spectrum of
-              activities we deal with, expanded broadly.
+              Codebase Club is the official coding and development club of the institution, founded with the vision of fostering a collaborative coding culture among students. Over time, the club has grown both in strength and scope, expanding into diverse domains and organizing a wide range of technical activities.
             </p>
           </div>
         </div>
@@ -60,25 +56,20 @@ function About() {
           <div className="mt-6">
             <p className="text-lg">
               We organize a national level hackathon, Hackatron every year. The
-              first version of this hackathon was held in 16th-17th November
-              2019. Checkout more at{' '}
+              first version of this hackathon was held in Date month
+              year. Checkout more at{' '}
               <a
                 className="text-blue"
-                href="https://www.hackatron.hnccbits.com"
+                href=""
               >
-                hackatron.hnccbits.com
+                website link
               </a>
               <br />
-              Organize sessions related to various technology stacks such as
-              Development, Open Source etc. <br /> Host competitions related to
-              coding and other tech domains throughout the year and Techfest,
-              BIT Sindri <br />
-              Develop real world projects and solve real world problems.Checkout
-              our GitHub account at GitHub <br /> We manage the official
-              CodeChef Chapter of BIT Sindri, Dhanbad. See more about our coding
+              Organize sessions and workshops on various technology stacks including Development, Open Source, and more.<br />Host coding competitions and technical events throughout the year, including during Techfest.<br />
+              Build real-world projects aimed at solving practical problems. Check out our work on GitHub. See more about our coding
               culture at our official site{' '}
-              <a className="text-blue" href="https://www.contest.hnccbits.com">
-                contest.hnccbits.com
+              <a className="text-blue" href="">
+                websitelink
               </a>{' '}
             </p>
           </div>
