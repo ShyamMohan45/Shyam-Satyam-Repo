@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import BottomGlitter from '../StyledText/BottomGlitter';
 import Styles from './Footer.module.css';
 
