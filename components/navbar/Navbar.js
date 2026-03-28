@@ -59,19 +59,19 @@ function Navbar() {
       <div>
         <Link href="/">
           <a className="flex items-center">
-<img 
-  src="https://cdn.iiitkota.ac.in/site/clubs/codebase.webp"
-  alt="Codebase"
-  height="40px"
-  width="40px"
-  style={{ borderRadius: "50%" }}
-/>
-<h2 
-  id="hnccTitle"  
-  className={`${styles.navTitle} !text-3xl ml-1.5 font-semibold`}
->
-  Codebase
-</h2>
+            <img
+              src="https://cdn.iiitkota.ac.in/site/clubs/codebase.webp"
+              alt="Codebase"
+              height="40px"
+              width="40px"
+              style={{ borderRadius: '50%' }}
+            />
+            <h2
+              id="hnccTitle"
+              className={`${styles.navTitle} !text-3xl ml-1.5 font-semibold`}
+            >
+              Codebase
+            </h2>
           </a>
         </Link>
       </div>
