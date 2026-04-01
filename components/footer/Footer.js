@@ -19,7 +19,9 @@ function Footer() {
                 sanidhyamadheshia@gmail.com
               </a>
             </h4>
-            <h4 className="text-l font-extralight">Contact details: 87990 15820</h4>
+            <h4 className="text-l font-extralight">
+              Contact details: 87990 15820
+            </h4>
           </div>
           <div className="my-3 flex flex-col">
             <h3 className="text-2xl">Meet</h3>
@@ -74,8 +76,6 @@ function Footer() {
         <h6>
           © {new Date().getFullYear()} Codebase Club. All rights reserved.
         </h6>
-
-        
       </div>
     </footer>
   );

@@ -16,7 +16,6 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-
     const div = document.createElement('div');
     div.setAttribute('id', 'overlay');
     document.querySelector('body').appendChild(div);
@@ -79,14 +78,13 @@ function Navbar() {
         <Link href="/about">
           <a className={styles.navLink}>ABOUT US</a>
         </Link>
-        
+
         <Link href="/alumni">
           <a className={styles.navLink}>ALUMNI</a>
         </Link>
         <Link href="/events">
           <a className={styles.navLink}>EVENTS</a>
         </Link>
-
 
         <a
           href="https://master--iiitkota-codebase.netlify.app/"
@@ -96,7 +94,6 @@ function Navbar() {
         >
           <Button
             style={{ border: 'none' }}
-
             className="bg-primary-light text-primary"
           >
             <span style={SpanStyle}>Join Us</span>
@@ -112,8 +109,6 @@ function Navbar() {
       </div>
       <Sidebar isMounted={isOpen} unmount={() => setIsOpen(false)} />
     </section>
-   
   );
 }
 export default Navbar;
-
