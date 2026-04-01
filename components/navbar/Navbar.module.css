@@ -4,8 +4,8 @@
   @apply xl:px-8;
   @apply sm:px-6;
   @apply xs:px-3;
-  background-color: rgba(24, 30, 35, 0.45);
-  backdrop-filter: blur(8px);
+  /* background-color: rgba(24, 30, 35, 0.45); */
+  /* backdrop-filter: blur(8px); */
 }
 
 .navTitle {
@@ -20,6 +20,7 @@
   @apply xl:gap-4;
   @apply lg:hidden;
 }
+
 
 .navbarList > .navLink {
   @apply font-semibold text-base xl:mx-5;

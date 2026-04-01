@@ -16,7 +16,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    // Creating a dynamic parent div for the sidebar to act as portal's root
+
     const div = document.createElement('div');
     div.setAttribute('id', 'overlay');
     document.querySelector('body').appendChild(div);
@@ -79,9 +79,7 @@ function Navbar() {
         <Link href="/about">
           <a className={styles.navLink}>ABOUT US</a>
         </Link>
-        {/* <Link href="/teams">
-          <a className={styles.navLink}>TEAM</a>
-        </Link> */}
+        
         <Link href="/alumni">
           <a className={styles.navLink}>ALUMNI</a>
         </Link>
@@ -89,9 +87,7 @@ function Navbar() {
           <a className={styles.navLink}>EVENTS</a>
         </Link>
 
-        {/* <Link href="/contact">
-          <a className={styles.navLink}>CONTACT US</a>
-        </Link> */}
+
         <a
           href="https://master--iiitkota-codebase.netlify.app/"
           target="_blank"
@@ -100,8 +96,7 @@ function Navbar() {
         >
           <Button
             style={{ border: 'none' }}
-            // className="bg-primary-light text-primary hover:text-primary-light"
-            /* For christams Theme */
+
             className="bg-primary-light text-primary"
           >
             <span style={SpanStyle}>Join Us</span>
@@ -117,6 +112,8 @@ function Navbar() {
       </div>
       <Sidebar isMounted={isOpen} unmount={() => setIsOpen(false)} />
     </section>
+   
   );
 }
 export default Navbar;
+
