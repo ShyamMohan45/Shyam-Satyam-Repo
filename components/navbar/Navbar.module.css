@@ -4,8 +4,8 @@
   @apply xl:px-8;
   @apply sm:px-6;
   @apply xs:px-3;
-  background-color: rgba(24, 30, 35, 0.45);
-  backdrop-filter: blur(8px);
+  /* background-color: rgba(24, 30, 35, 0.45); */
+  /* backdrop-filter: blur(8px); */
 }
 
 .navTitle {
@@ -28,7 +28,7 @@
 }
 .navbarList > .navLink:hover {
   /* @apply text-blue font-medium; */
-  
+
   /* For christmas theme */
   @apply text-golden font-medium;
 }

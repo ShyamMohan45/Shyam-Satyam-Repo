@@ -15,9 +15,12 @@ function Footer() {
           <div className="mb-3 flex flex-col">
             <h3 className="text-2xl">Write</h3>
             <h4 className="text-lg font-extralight">
-              <a href="mailto:codebaseiiitkota@hmail.com">
-                codebaseiiitkota@hmail.com
+              <a href="mailto:sanidhyamadheshia@gmail.com">
+                sanidhyamadheshia@gmail.com
               </a>
+            </h4>
+            <h4 className="text-l font-extralight">
+              Contact details: 87990 15820
             </h4>
           </div>
           <div className="my-3 flex flex-col">
@@ -72,11 +75,6 @@ function Footer() {
       <div className={Styles.copyrightBottom}>
         <h6>
           © {new Date().getFullYear()} Codebase Club. All rights reserved.
-        </h6>
-
-        <h6 className="flex items-center">
-          Crafted with&nbsp;<span className="text-2xl">♥</span>&nbsp;by Shyam
-          Faujdaar(Web dev lead) and Satyam Rajawat(Wen dev lead) Codebase club
         </h6>
       </div>
     </footer>
